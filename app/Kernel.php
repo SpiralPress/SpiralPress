@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App;
 
 use App\Bootloader\WordPressCoreBootloader;
+use App\Bootloader\WpConfigBootloader;
 use Spiral\Boot\Bootloader\CoreBootloader;
 use Spiral\Bootloader as Framework;
 use Spiral\Cycle\Bootloader as CycleBridge;
@@ -112,6 +113,7 @@ class Kernel extends \Spiral\Framework\Kernel
             \Spiral\Debug\Bootloader\DumperBootloader::class,
 
             // WordPress Bootloaders
+            WpConfigBootloader::class,
             WordPressCoreBootloader::class
         ];
     }
