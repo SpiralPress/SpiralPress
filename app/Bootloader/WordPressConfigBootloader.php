@@ -5,7 +5,7 @@ namespace App\Bootloader;
 use Spiral\Boot\Bootloader\Bootloader;
 use Spiral\Boot\DirectoriesInterface;
 
-class WpConfigBootloader extends Bootloader {
+class WordPressConfigBootloader extends Bootloader {
     public function __construct(
         private readonly DirectoriesInterface $dirs
     )
