@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App;
 
+use App\Bootloader\WordPressCoreBootloader;
 use Spiral\Boot\Bootloader\CoreBootloader;
 use Spiral\Bootloader as Framework;
 use Spiral\Cycle\Bootloader as CycleBridge;
@@ -34,7 +35,7 @@ class Kernel extends \Spiral\Framework\Kernel
             YiiErrorHandlerBootloader::class,
 
             // Application specific logs
-            Bootloader\LoggingBootloader::class,
+            \App\Bootloader\LoggingBootloader::class,
 
             // Core Services
             Framework\SnapshotsBootloader::class,
@@ -98,14 +99,18 @@ class Kernel extends \Spiral\Framework\Kernel
 
             RoadRunnerBridge\CommandBootloader::class,
 
-            Bootloader\RoutesBootloader::class,
-            Bootloader\CustomStemplerDirectivesBootloader::class,
-            Bootloader\ExceptionHandlerBootloader::class,
+            \App\Bootloader\RoutesBootloader::class,
+            \App\Bootloader\CustomStemplerDirectivesBootloader::class,
+            \App\Bootloader\ExceptionHandlerBootloader::class,
 
             // Fast code prototyping
             Prototype\PrototypeBootloader::class,
 
             \Spiral\Serializer\Symfony\Bootloader\SerializerBootloader::class,
+
+
+            // WordPress Bootloaders
+            WordPressCoreBootloader::class
         ];
     }
 
