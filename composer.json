@@ -21,8 +21,9 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^10.0",
-        "spiral/testing": "^2.2",
         "spiral-packages/yii-error-handler-bridge": "^1.1",
+        "spiral/dumper": "^3.3",
+        "spiral/testing": "^2.2",
         "symfony/var-dumper": "^6.1",
         "vimeo/psalm": "^5.8"
     },

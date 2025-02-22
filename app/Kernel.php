@@ -108,6 +108,8 @@ class Kernel extends \Spiral\Framework\Kernel
 
             \Spiral\Serializer\Symfony\Bootloader\SerializerBootloader::class,
 
+            // Debug
+            \Spiral\Debug\Bootloader\DumperBootloader::class,
 
             // WordPress Bootloaders
             WordPressCoreBootloader::class
