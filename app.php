@@ -21,6 +21,8 @@ $app = Kernel::create(
     directories: [
         'root' => __DIR__,
         'views' => __DIR__ . DIRECTORY_SEPARATOR . 'views',
+        'config' => __DIR__ . DIRECTORY_SEPARATOR . 'configs',
+        'resources' => __DIR__ . DIRECTORY_SEPARATOR . 'resources',
     ],
     exceptionHandler: Handler::class,
 )->run();
