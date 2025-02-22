@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Application;
+namespace App;
 
 use Spiral\Boot\Bootloader\CoreBootloader;
 use Spiral\Bootloader as Framework;

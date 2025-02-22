@@ -16,10 +16,10 @@ return [
 
     'declarations' => [
         Declaration\BootloaderDeclaration::TYPE => [
-            'namespace' => 'Application\\Bootloader',
+            'namespace' => 'Bootloader',
         ],
         Declaration\ConfigDeclaration::TYPE => [
-            'namespace' => 'Application\\Config',
+            'namespace' => 'Config',
         ],
         Declaration\ControllerDeclaration::TYPE => [
             'namespace' => 'Endpoint\\Web',

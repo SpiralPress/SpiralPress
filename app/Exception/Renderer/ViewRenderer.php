@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Application\Exception\Renderer;
+namespace App\Exception\Renderer;
 
 use Psr\Http\Message\ResponseFactoryInterface;
 use Psr\Http\Message\ResponseInterface;

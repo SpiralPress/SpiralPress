@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Application\Stempler;
+namespace App\Stempler;
 
 use Spiral\Stempler\Directive\AbstractDirective;
 

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Application\Bootloader;
+namespace App\Bootloader;
 
-use App\Application\Stempler\FrameworkDirectives;
-use App\Application\Stempler\PhpDirectives;
+use App\Stempler\FrameworkDirectives;
+use App\Stempler\PhpDirectives;
 use Spiral\Boot\Bootloader\Bootloader;
 use Spiral\Stempler\Bootloader\StemplerBootloader as BaseStemplerBootloader;
 

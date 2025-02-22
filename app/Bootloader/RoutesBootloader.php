@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Application\Bootloader;
+namespace App\Bootloader;
 
 use App\Endpoint\Web\Middleware\LocaleSelector;
 use App\Endpoint\Web\PageNotFoundController;

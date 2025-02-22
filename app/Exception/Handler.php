@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Application\Exception;
+namespace App\Exception;
 
 use Spiral\Exceptions\ExceptionHandler;
 use Spiral\Exceptions\Renderer\ConsoleRenderer;
