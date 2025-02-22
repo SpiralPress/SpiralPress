@@ -9,7 +9,7 @@
     findUnusedCode="false"
 >
     <projectFiles>
-        <directory name="app/src"/>
+        <directory name="app"/>
         <ignoreFiles>
             <directory name="vendor"/>
         </ignoreFiles>
@@ -17,7 +17,7 @@
     <issueHandlers>
         <PropertyNotSetInConstructor>
             <errorLevel type="suppress">
-                <directory name="app/src/Endpoint/Console"/>
+                <directory name="app/Endpoint/Console"/>
             </errorLevel>
         </PropertyNotSetInConstructor>
     </issueHandlers>

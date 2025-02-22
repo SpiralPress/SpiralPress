@@ -22,7 +22,7 @@
     </testsuites>
     <source>
         <include>
-            <directory suffix=".php">app/src</directory>
+            <directory suffix=".php">app</directory>
         </include>
     </source>
     <php>
