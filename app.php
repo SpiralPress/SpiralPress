@@ -18,7 +18,10 @@ require __DIR__ . '/vendor/autoload.php';
 
 // Initialize shared container, bindings, directories and etc.
 $app = Kernel::create(
-    directories: ['root' => __DIR__],
+    directories: [
+        'root' => __DIR__,
+        'views' => __DIR__ . DIRECTORY_SEPARATOR . 'views',
+    ],
     exceptionHandler: Handler::class,
 )->run();
 
